@@ -88,7 +88,7 @@ export default {
             };
 
             try {
-                const url = "https://127.0.0.1:8000/account/register";
+                const url = "http://127.0.0.1:8000/account/register";
                 const response = await axios.post(url, registerInfo);
 
                 if (response.status === 200) {
